@@ -54,10 +54,11 @@ table {
 .topHead{
     background-color: #e5e5e5;
     padding:2rem;
+    width: 96%;;
 }
 
 h1{
-    font-size:300%;
+    font-size:3rem;
     padding:2rem 0 2rem 3rem;
 }
 
@@ -97,9 +98,11 @@ h1{
 }
 
 .right{
-    padding-top:6rem;
+    padding-top:15%;
     text-align: center;
-}
+    width:50%;
+  }
+
 
 /* My Work 8 boxes */
 
@@ -207,4 +210,9 @@ h5{
     flex-direction:column;
   }
   
+}
+
+/* This is 360 for Phone */
+@media(max-width:360px){
+    
 }
