@@ -138,3 +138,72 @@ h5{
     background-color: black;
     color:white;
 }
+/* This is where I make the responsive Layout  */
+@media(max-width:800px){
+  html{
+    width:100%;
+  }
+  .topNav a{
+    font-size:80%;
+    
+  }
+  .nav{
+    width:6%;
+  }
+    .topHead{
+        padding: 0.5rem;
+        font-size:80%;
+    }
+  .right{
+    font-size:80%;
+    margin:10%;
+    padding:2%; 
+  }
+  .footer{
+    font-size:70%;
+    width:100%;
+  }
+  h5{
+    font-size:1rem;
+    margin-left:-5%;
+    
+  }
+}
+
+@media(max-width:500px){
+  .topHead{
+    padding:10px;
+    font-size:80%;
+  }
+  h1{
+    font-size:2rem;
+  }
+  
+  .nav{
+    width:30%;
+    margin-left:15%;
+  }
+  
+    .topNav{
+        flex-direction: column;
+        align-items: stretch;
+    }
+  .secondSection{
+    flex-direction:column;
+  }
+  .firstPhoto{
+    width:92%;
+  }
+  .right{
+    margin-left:0%;
+  }
+  
+  .myWorkRow1{
+    flex-direction:column;
+    
+  }
+  .myWorkRow2{
+    flex-direction:column;
+  }
+  
+}
